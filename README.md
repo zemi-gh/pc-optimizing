@@ -1,15 +1,19 @@
-# 🖥️ PC Optimizing Toolkit
+# PC Optimizing Toolkit
 
-A complete **PC optimization and system performance guide** focused
-on: - Higher and more stable performance - Lower system latency -
-Network stability - Windows cleanup - Hardware and driver diagnostics
+A complete **PC optimization and system performance guide** focused on:
+
+-   Higher and more stable performance\
+-   Lower system latency\
+-   Network stability\
+-   Windows cleanup\
+-   Hardware and driver diagnostics
 
 This repository is built for **any Windows PC user** who wants **maximum
 stability, responsiveness, and efficiency**.
 
 ------------------------------------------------------------------------
 
-## 📚 Table of Contents
+## Table of Contents
 
 1.  Tool Categories\
 2.  Performance & FPS Tools\
@@ -43,14 +47,10 @@ stability, responsiveness, and efficiency**.
 
 **Purpose:** GPU overclocking, undervolting, fan control, FPS overlay.
 
-**Key Benefits:** - Higher sustained boost clocks - Reduced thermal
-throttling - Improved minimum FPS
-
 **Recommended Values:** - Power Limit: Maximum - Core Clock: +25 MHz
-steps - Memory Clock: +50--100 MHz steps - Fan Curve: Aggressive custom
-curve
+steps - Memory Clock: +50--100 MHz steps - Fan Curve: Custom aggressive
 
-**Typical Performance Gain:** +5% to +15%
+**Performance Gain:** +5% to +15%
 
 ------------------------------------------------------------------------
 
@@ -58,11 +58,14 @@ curve
 
 **Purpose:** Frame pacing and precise FPS limiting.
 
-**Why It Matters:** Stable frame timing improves smoothness and system
-responsiveness.
+**FPS Caps:**
 
-**FPS Caps:** - 144 Hz → 141 FPS - 165 Hz → 162 FPS - 240 Hz → 237 FPS -
-360 Hz → 357 FPS
+  Monitor   FPS Cap
+  --------- ---------
+  144 Hz    141
+  165 Hz    162
+  240 Hz    237
+  360 Hz    357
 
 **Frame-Time Stability Improvement:** 20%--60%
 
@@ -72,8 +75,10 @@ responsiveness.
 
 **Purpose:** Prevents Windows RAM standby stutter.
 
-**Configuration:** - List Size: 1024 MB - 16 GB RAM → Free at 8192 MB -
-32 GB RAM → Free at 16384 MB
+  RAM Size   Free Memory
+  ---------- -------------
+  16 GB      8192 MB
+  32 GB      16384 MB
 
 **Stutter Reduction:** 30%--70%
 
@@ -84,7 +89,7 @@ responsiveness.
 **Purpose:** CPU thread and priority management.
 
 **Recommended Setup:** - Application Priority: High - ProBalance:
-Disabled for critical apps - Do not modify parking unless experienced
+Disabled for critical apps
 
 **CPU Stability Improvement:** 3%--10%
 
@@ -92,11 +97,11 @@ Disabled for critical apps - Do not modify parking unless experienced
 
 ### Nvidia Control Panel / AMD Adrenalin
 
-**Nvidia Settings:** - Low Latency Mode → Ultra - Power Management →
-Prefer Maximum Performance - V-Sync → Off - Texture Quality → High
+**Nvidia Settings:** - Low Latency Mode: Ultra - Power Management:
+Prefer Maximum Performance - V-Sync: Off - Texture Quality: High
 Performance
 
-**AMD Settings:** - Anti-Lag → On - Chill → Off - Enhanced Sync → Off
+**AMD Settings:** - Anti-Lag: On - Chill: Off - Enhanced Sync: Off
 
 **Input Latency Reduction:** 10%--35%
 
@@ -106,10 +111,8 @@ Performance
 
 ### Logitech G Hub / Razer Synapse / SteelSeries GG
 
-**Purpose:** DPI, polling rate, macros, profiles.
-
 **Recommended Setup:** - Polling Rate: 1000--4000 Hz - DPI Range:
-400--1600 - Disable heavy RGB effects
+400--1600 - Disable unnecessary RGB
 
 ------------------------------------------------------------------------
 
@@ -117,8 +120,8 @@ Performance
 
 **Purpose:** Rapid Trigger and analog input tuning.
 
-**Recommended Values:** - Rapid Trigger: 0.1--0.4 mm - Actuation Point:
-0.4--1.0 mm
+-   Rapid Trigger: 0.1--0.4 mm
+-   Actuation Point: 0.4--1.0 mm
 
 **Key Reset Speed Increase:** 30%--70%
 
@@ -140,8 +143,6 @@ Performance
 
 ### Cloudflare WARP
 
-**Purpose:** Internet routing and packet loss stabilization.
-
 **Packet Loss Reduction:** 20%--90%\
 **Ping Change:** -5 ms to +10 ms
 
@@ -149,21 +150,19 @@ Performance
 
 ### ExitLag
 
-**Purpose:** Paid routing optimization.
-
 **Ping Reduction:** 5--30 ms
 
 ------------------------------------------------------------------------
 
 ### PingPlotter
 
-**Purpose:** Network path diagnostics and spike monitoring.
+Network path diagnostics and spike monitoring.
 
 ------------------------------------------------------------------------
 
 ### NetLimiter
 
-**Purpose:** Bandwidth monitoring and background network control.
+Bandwidth monitoring and background network control.
 
 ------------------------------------------------------------------------
 
@@ -182,27 +181,22 @@ Performance
 
 ### Autoruns
 
-**Boot Speed Improvement:** 15%--50%
-
-------------------------------------------------------------------------
+Boot Speed Improvement: 15%--50%
 
 ### O&O ShutUp10++
 
-**Background Load Reduction:** 5%--15%
-
-------------------------------------------------------------------------
+Background Load Reduction: 5%--15%
 
 ### Revo Uninstaller
 
-**Function:** Full leftover file and registry removal.
-
-------------------------------------------------------------------------
+Full leftover file and registry removal.
 
 ### Windows Debloater
 
-**RAM Recovery:** 0.5--2.5 GB
+RAM Recovery: 0.5--2.5 GB
 
-Do NOT remove: - .NET Framework - Visual C++ Runtimes - Xbox Services
+**Do NOT remove:** - .NET Framework - Visual C++ Runtimes - Xbox
+Services
 
 ------------------------------------------------------------------------
 
@@ -275,21 +269,28 @@ Do NOT remove: - .NET Framework - Visual C++ Runtimes - Xbox Services
 
 ## 9. Baseline Optimization Stack
 
-Minimum recommended setup: - MSI Afterburner - RTSS - ISLC - Nvidia
-Control Panel or AMD Adrenalin - Peripheral Software - Cloudflare WARP
-or ExitLag
+-   MSI Afterburner\
+-   RTSS\
+-   ISLC\
+-   Nvidia Control Panel or AMD Adrenalin\
+-   Peripheral Software\
+-   Cloudflare WARP or ExitLag
 
 ------------------------------------------------------------------------
 
 ## 10. System Tuning Presets
 
-  RAM     ISLC Free Value
-  ------- -----------------
+### ISLC Presets
+
+  RAM     Free Value
+  ------- ------------
   16 GB   8192 MB
   32 GB   16384 MB
 
-  Monitor   FPS Cap
-  --------- ---------
+### FPS Cap Presets
+
+  Monitor   Cap
+  --------- -----
   144 Hz    141
   165 Hz    162
   240 Hz    237
@@ -299,25 +300,24 @@ or ExitLag
 
 ## 11. General Best Practices
 
--   Keep BIOS and chipset drivers updated.
--   Use wired Ethernet.
--   Disable unnecessary overlays.
--   Avoid excessive background software.
--   Never use registry cleaners claiming FPS boosts.
--   Restart after major driver updates.
--   Apply one optimization at a time.
+-   Keep BIOS and chipset drivers updated\
+-   Use wired Ethernet\
+-   Disable unnecessary overlays\
+-   Avoid excessive background software\
+-   Never use registry cleaners claiming FPS boosts\
+-   Restart after major driver updates\
+-   Apply one optimization at a time
 
 ------------------------------------------------------------------------
 
-## ✅ Final Notes
+## Final Notes
 
-This toolkit is designed for: - System performance tuning - Competitive
-gaming and low-latency setups - Daily-use responsiveness improvement -
-Hardware diagnostic and stability testing
+This toolkit is designed for:
 
-Applied correctly, it provides **clean performance gains, lower system
+-   System performance tuning\
+-   Competitive and low-latency setups\
+-   Daily-use responsiveness improvement\
+-   Hardware diagnostic and stability testing
+
+Applied correctly, it delivers **clean performance gains, lower system
 latency, and stronger stability**.
-
-------------------------------------------------------------------------
-
-End of README.
