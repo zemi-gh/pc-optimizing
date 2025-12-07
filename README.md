@@ -2,10 +2,10 @@
 
 A complete **PC optimization and system performance guide** focused on:
 
--   Higher and more stable performance\
--   Lower system latency\
--   Network stability\
--   Windows cleanup\
+-   Higher and more stable performance
+-   Lower system latency
+-   Network stability
+-   Windows cleanup
 -   Hardware and driver diagnostics
 
 This repository is built for **any Windows PC user** who wants **maximum
@@ -15,16 +15,16 @@ stability, responsiveness, and efficiency**.
 
 ## Table of Contents
 
-1.  Tool Categories\
-2.  Performance & FPS Tools\
-3.  Mouse, Input & Peripheral Tools\
-4.  Network, Ping & Routing Tools\
-5.  Monitoring & Diagnostics\
-6.  Windows Cleanup & Startup Control\
-7.  Download Links\
-8.  Performance Impact Summary\
-9.  Baseline Optimization Stack\
-10. System Tuning Presets\
+1.  Tool Categories
+2.  Performance & FPS Tools
+3.  Mouse, Input & Peripheral Tools
+4.  Network, Ping & Routing Tools
+5.  Monitoring & Diagnostics
+6.  Windows Cleanup & Startup Control
+7.  Download Links
+8.  Performance Impact Summary
+9.  Baseline Optimization Stack
+10. System Tuning Presets
 11. General Best Practices
 
 ------------------------------------------------------------------------
@@ -143,8 +143,7 @@ Performance
 
 ### Cloudflare WARP
 
-**Packet Loss Reduction:** 20%--90%\
-**Ping Change:** -5 ms to +10 ms
+**Packet Loss Reduction:** 20%--90% **Ping Change:** -5 ms to +10 ms
 
 ------------------------------------------------------------------------
 
@@ -269,11 +268,11 @@ Services
 
 ## 9. Baseline Optimization Stack
 
--   MSI Afterburner\
--   RTSS\
--   ISLC\
--   Nvidia Control Panel or AMD Adrenalin\
--   Peripheral Software\
+-   MSI Afterburner
+-   RTSS
+-   ISLC
+-   Nvidia Control Panel or AMD Adrenalin
+-   Peripheral Software
 -   Cloudflare WARP or ExitLag
 
 ------------------------------------------------------------------------
@@ -300,12 +299,12 @@ Services
 
 ## 11. General Best Practices
 
--   Keep BIOS and chipset drivers updated\
--   Use wired Ethernet\
--   Disable unnecessary overlays\
--   Avoid excessive background software\
--   Never use registry cleaners claiming FPS boosts\
--   Restart after major driver updates\
+-   Keep BIOS and chipset drivers updated
+-   Use wired Ethernet
+-   Disable unnecessary overlays
+-   Avoid excessive background software
+-   Never use registry cleaners claiming FPS boosts
+-   Restart after major driver updates
 -   Apply one optimization at a time
 
 ------------------------------------------------------------------------
@@ -314,9 +313,9 @@ Services
 
 This toolkit is designed for:
 
--   System performance tuning\
--   Competitive and low-latency setups\
--   Daily-use responsiveness improvement\
+-   System performance tuning
+-   Competitive and low-latency setups
+-   Daily-use responsiveness improvement
 -   Hardware diagnostic and stability testing
 
 Applied correctly, it delivers **clean performance gains, lower system
